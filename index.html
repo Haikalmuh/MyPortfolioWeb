@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | John Doe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-mode">
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">MH</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <!-- <button id="language-toggle" aria-label="Toggle language">
+                    <span class="lang-text">EN</span>
+                    <i class="fas fa-globe"></i>
+                </button> -->
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <a href="#" class="btn btn-outline">Resume</a>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="btn btn-outline">Resume</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <h1>Hi, I'm <span class="highlight">Muhammad Haikal</span></h1>
+                        <h2>Frontend Developer</h2>
+                        <p>I build exceptional digital experiences that are fast, accessible, visually appealing, and
+                            responsive.</p>
+                        <div class="hero-cta">
+                            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <div class="hero-image">
+                            <img src="assets/pp.jpg" alt="John Doe" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I'm a passionate frontend developer with a keen eye for design and a commitment to creating
+                        intuitive, dynamic user experiences. With a background in both design and development, I bridge
+                        the gap between aesthetics and functionality.</p>
+                    <p>My approach combines clean code, modern technologies, and user-centered design principles to
+                        build websites and applications that not only look great but perform exceptionally well across
+                        all devices.</p>
+                    <!-- <p>When I'm not coding, you can find me exploring new design trends, contributing to open-source
+                        projects, or enjoying outdoor activities to recharge my creative energy.</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-carousel-container">
+                    <div class="skills-carousel row-1">
+                        <div class="skill-item">
+                            <div class="skill-icon html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon responsive">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon laravel">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon php">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span>PHP</span>
+                        </div>
+                        <!-- Duplicate for continuous scrolling -->
+                        <div class="skill-item">
+                            <div class="skill-icon html">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon responsive">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon laravel">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon php">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                    <div class="skills-carousel row-2">
+                        <div class="skill-item">
+                            <div class="skill-icon react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon bootstrap">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon git">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon npm">
+                                <i class="fab fa-npm"></i>
+                            </div>
+                            <span>NPM</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon figma">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon canva">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span>Canva</span>
+                        </div>
+                        <!-- Duplicate for continuous scrolling -->
+                        <div class="skill-item">
+                            <div class="skill-icon react">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon bootstrap">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon git">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon npm">
+                                <i class="fab fa-npm"></i>
+                            </div>
+                            <span>NPM</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon figma">
+                                <i class="fab fa-figma"></i>
+                            </div>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon canva">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="assets/portfolio/quizproj2.png" alt="E-commerce Website" />
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Music Quiz Website</h3>
+                            <p>Interactive and responsive music quiz website for guessing songs, artists, and trivia.
+                            </p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                            <a href="https://musicquiz-byme.vercel.app/" target="_blank" class="btn btn-outline">View
+                                Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="assets/portfolio/restoweb.png" alt="Portfolio Website" />
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Restaurant Website</h3>
+                            <p>Visually appealing and responsive restaurant website showcasing delightful culinary
+                                experiences.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                            <a href="https://warisan-simple-restaurant-web.vercel.app/" target="_blank"
+                                class="btn btn-outline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="/placeholder.svg?height=300&width=500" alt="Weather App" />
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Weather App</h3>
+                            <p>A weather application that provides real-time forecasts based on location with beautiful
+                                UI/UX design.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">API</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="/placeholder.svg?height=300&width=500" alt="Task Manager" />
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Task Manager</h3>
+                            <p>A productivity application for managing tasks with drag-and-drop functionality and local
+                                storage.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Connect With Me</h3>
+                        <p>Feel free to reach out through the form or connect with me on social media.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/Haikalmuh" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://instagram.com/haikallmuh" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@johndoe.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Sukoharjo, Central Java - Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Muhammad Haikal. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/translate.js"></script>
+</body>
+
+</html>
