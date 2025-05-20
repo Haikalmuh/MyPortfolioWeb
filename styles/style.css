@@ -271,6 +271,11 @@ body.dark-mode #theme-toggle .fa-moon {
   justify-content: center;
 }
 
+.hero .subtitle {
+  font-size: 1.7rem;
+  margin-bottom: 1px;
+}
+
 .hero h1 {
   font-size: 3.5rem;
   line-height: 1.2;
